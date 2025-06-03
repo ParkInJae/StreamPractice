@@ -1,5 +1,10 @@
-"# StreamPractice" 
-https://hirodevelodiary.tistory.com/entry/Java-Stream%EC%9D%98-%EA%B8%B0%EC%B4%88-%EB%AC%B8%EB%B2%95-%EB%B0%8F-%EC%98%88%EC%8B%9C%EC%BD%94%EB%93%9C
+<h1>Stream이란?</h1>
+  스트림이란? > 
+  Java 8에서 추가된 Stream API의 핵심 메서드.
+  Collection(예: List, Set) 인터페이스의 기본 메서드로, 
+  해당 컬렉션의 요소들을 기반으로 한 스트림(Stream) 객체를 생성함.
+  즉, 데이터 처리 흐름(파이프라인)을 시작하는 입구 역할을 한다고 볼 수 있음 .
+  컬렉션, 배열 등의 데이터 소스를 다루기 위한 함수형 프로그래밍 방식이자, 
+  스트림을 사용하면 반복문이나 조건문을 하나의 문장에 간략히 작성할 수 있다. 
 
 
-https://velog.io/@skiende74/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%9E%85%EB%AC%B8%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EA%B3%B5%EB%B6%80%EB%B2%95
