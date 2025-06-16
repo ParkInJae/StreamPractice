@@ -9,10 +9,14 @@
   스트림을 사용하면 반복문이나 조건문을 하나의 문장에 간략히 작성할 수 있다. 
 
   Stream API는 IntStream, LongStream, DoubleStream만 제공한다. 
-  
+
+<h1>Stream에서의 :: </h1>
+
+**::는 메서드 참조 전용 문법**
+즉 연산을 포함한 일반 식에 사용할 수 없다.
+
+
 * Stream의 filter
-
-
 ```
 .filter(FindPrimeNumberStream::isPrimeStream) // 각 숫자에 대해 isPrimeStream 메서드 호출 후 true를 가지는 값만 남겨둠
 ```
@@ -28,8 +32,8 @@ allMatch	          모든 요소가 조건을 만족해야 true
 
 return ! .anyMatch(i -> candidate % i == 0);의 결과값 
 // 부정 연산자를 붙어 해당 조건이 true일 때, false를 만들어 실수가 아닌 것은 반환 x , false인 실수를 true로 변환시켜 반환한다.
-```
 
+```
 noneMatch	          조건을 만족하는 요소가 하나도 없으면 true
 ```
 // 소수 찾을 때 noneMatch를 사용할 경우 
@@ -40,7 +44,6 @@ noneMatch	          조건을 만족하는 요소가 하나도 없으면 true
 
 
 <h1>FindPrimeNumberStream 설명</h1>
-
 
 * 로직 설명
 hasDivisor >> 소수를 찾는 로직 
